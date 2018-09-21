@@ -3,6 +3,7 @@
 
     var panels = document.getElementsByClassName('panel');
     var spin = document.getElementById('spin');
+    var result = document.getElementById('result');
 
     var cards = [
         'seven.png',
@@ -52,6 +53,16 @@
         }
         if(img2.src !== img0.src && img2.src !== img1.src){
             img2.className = 'unmatched';
+        }
+        if(img0.src===img1.src&&img1.src===img2.src){
+            result.textContent = 'AWESOME!!';
+            result.style.color = '#ef454a';
+        }else if(img0.src===img1.src||img0.src===img2.src||img1.src===img2.src){
+            result.textContent = 'GREAT WORK!!'
+            result.style.color = 'green';
+        }else{
+            result.textContent = 'TRY AGAIN!!';
+            result.style.color = '#3498db'
         }
         
     }

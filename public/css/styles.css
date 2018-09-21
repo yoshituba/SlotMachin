@@ -1,5 +1,7 @@
+@import "https://fonts.googleapis.com/css?family=Rubik+Mono+One";
+
 body{
-    background: #bed6be;
+    background: #f3d573;
     font-family: Arial, san-serif;
     font-size: 16px;
     font-weight: bold;
@@ -8,7 +10,7 @@ body{
     width: 300px;
     padding: 20px;
     background: rgb(255, 254, 254);
-    border: 5px solid rgb(219, 219, 219);
+    border: 5px solid rgb(85, 0, 0);
     border-radius: 10px;
     margin: 15px auto;
     overflow: hidden;
@@ -41,8 +43,8 @@ body{
     cursor: pointer;
     width: 280px;
     height: 30px;
-    background: #3498db;
-    box-shadow: 0 3px 0 #2880b9;
+    background: rgb(148, 0, 0);
+    box-shadow: 0 3px 0 rgb(0, 0, 0);
     border-radius: 17px;
     line-height: 30px;
     text-align: center;
@@ -55,4 +57,15 @@ body{
 }
 .inactive{
     opacity: 0.6;
+}
+#result{
+    width: 300px;
+    padding: 20px;
+    background: rgb(255, 254, 254);
+    border: 5px solid rgb(85, 0, 0);
+    border-radius: 10px;
+    margin: 15px auto;
+    overflow: hidden;
+    text-align: center;
+    font-size: 30px;
 }
