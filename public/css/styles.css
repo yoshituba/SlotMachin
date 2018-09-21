@@ -68,4 +68,5 @@ body{
     overflow: hidden;
     text-align: center;
     font-size: 30px;
+    user-select: none;
 }
