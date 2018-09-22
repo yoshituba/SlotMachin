@@ -77,6 +77,8 @@
             runSlot(i);
             panels[i].children[0].className = '';
             panels[i].children[1].className = 'stop';
+            result.textContent = 'SPINNING!';
+            result.style.color = 'black';
         }
     })
 
